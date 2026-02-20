@@ -1,0 +1,135 @@
+{
+  "id": "livro-dos-monstros-2014",
+  "title": "Livro dos Monstros (2014)",
+  "version": "1.0.2",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "livro-do-jogador-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ATL",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dnd-item-compendium-by-gwill",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "livro-do-mestre-2014",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "<p>Um bestiário repleto de criaturas mortais para o maior RPG de todos os tempos.</p>",
+  "authors": [
+    {
+      "name": "Jadilson Santos",
+      "email": "jadilsonjose13@gmail.com",
+      "discord": "png_man",
+      "flags": {}
+    }
+  ],
+  "media": [{
+    "type": "setup",
+    "thumbnail": "modules/livro-dos-monstros-2014/imagens/thumb-modulo.jpg"
+  }],
+  "packs": [
+    {
+      "name": "bestiario",
+      "label": "Bestiário",
+      "path": "packs/bestiario",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "criaturas-diversas",
+      "label": "Criaturas Diversas",
+      "path": "packs/criaturas-diversas",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "caracteristicas-de-monstros",
+      "label": "Características de Monstros",
+      "path": "packs/caracteristicas-de-monstros",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "personagens-nao-jogadores",
+      "label": "Personagens Não-Jogadores",
+      "path": "packs/personagens-nao-jogadores",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "regras",
+      "label": "Regras",
+      "path": "packs/regras",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Livro dos Monstros (2014)",
+      "sorting": "m",
+      "color": "#008000",
+      "packs": [
+        "bestiario",
+        "criaturas-diversas",
+        "personagens-nao-jogadores",
+        "regras",
+        "caracteristicas-de-monstros"
+      ],
+      "folders": []
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "MM 2014": "Livro dos Monstros (2014)"
+      }
+    }
+  },
+  "url": "https://github.com/jadilsonjose13-hash/livro-dos-monstros-2014",
+  "manifest": "https://raw.githubusercontent.com/jadilsonjose13-hash/livro-dos-monstros-2014/refs/heads/main/module.json",
+  "download": "https://github.com/jadilsonjose13-hash/livro-dos-monstros-2014/archive/refs/heads/main.zip"
+}
