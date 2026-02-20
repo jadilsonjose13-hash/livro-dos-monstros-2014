@@ -1,7 +1,7 @@
 {
   "id": "livro-dos-monstros-2014",
   "title": "Livro dos Monstros (2014)",
-  "version": "1.0.2",
+  "version": "1.1.2",
   "compatibility": {
     "minimum": "12",
     "verified": "13"
